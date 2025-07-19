@@ -22,8 +22,7 @@ margin: 0;
 
 .content {
     display:grid;
-    grid-template-columns: 50% 25% 25%;
-    justify-content: space-between;
+    grid-template-columns: 50% 50%;
     width: 100%;
     border-bottom: 1px solid #cd5f06e4;
     border-width: 100%;
@@ -59,16 +58,27 @@ p{
 
 }
 
+.subscribe {
+    margin-bottom: 1.20em;
+}
+
+.link-tech {
+    display: flex;
+    justify-content: left;
+   
+}
 .quick-link  {
     color: #313131;
     font-size: .8em;
-    margin-left: 0;
+    padding-right: 7em;
     
 }
 
 .tech {
     font-size: .8em;
     color: #313131;
+    margin-left: 7em;
+    margin-right: 7em;
 
 }
 ul {
@@ -86,4 +96,92 @@ ul {
     padding-top: 1em;
     padding-bottom: 3em;
 
+}
+
+@media screen and (max-width: 768px) and (min-width: 376px) {
+    body {
+        background-color: white;
+        font-size: 1em;
+    }
+
+    footer {
+        border: 1em solid white;
+        border-radius: 1.5em;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container {
+        margin: 2.5em ;
+        margin-top: 0em;
+        
+    }
+
+    input {
+        width: 14em;
+
+    }
+
+     button {
+        width: 7.5em;
+
+     }
+
+    .tech{
+        margin-left: 10em;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        background-color: white;
+        font-size: 1em;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        border: 1em solid white;
+        border-radius: 1.5em;
+    }
+
+    .container {
+        margin: 2.5em ;
+        padding-top: 1em;
+        margin-top: 0;
+        
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        width: 18em;
+        margin-bottom: 1em;
+    }
+
+    button {
+        width: 19em;
+        margin-left: 0;
+    }
+    .link-tech {
+        flex-direction: column;
+    }
+
+    .tech{
+        margin-left: 0;
+    }
+
+    
+    
 }
