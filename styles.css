@@ -98,6 +98,8 @@ ul {
 
 }
 
+/*Responsiveness for phones with maximum width of 768px and minimum width of 376px*/
+
 @media screen and (max-width: 768px) and (min-width: 376px) {
     body {
         background-color: white;
@@ -136,6 +138,8 @@ ul {
     }
 
 }
+
+/*Responsiveness for phones with maximum width of 376px*/
 
 @media screen and (max-width: 376px) {
     body {
