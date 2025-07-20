@@ -86,9 +86,9 @@ ul {
     list-style: none;
     padding: 0;
     line-height: 2em;
-
+    color: #313131;
  
-}
+}a{color: #313131;text-decoration: none;}
 
 .flex {
     display: block;
