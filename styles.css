@@ -16,7 +16,7 @@ margin: 0;
 
 .container {
     border-radius: 6px;
-    margin: 4em 8em;
+    margin: 4vw 8vw;
     padding-top: 3em;
 }
 
@@ -60,6 +60,7 @@ p{
 
 .subscribe {
     margin-bottom: 1.20em;
+    padding-right: 1em;
 }
 
 .link-tech {
@@ -70,14 +71,14 @@ p{
 .quick-link  {
     color: #313131;
     font-size: .8em;
-    padding-right: 7em;
+    padding-right: 9vw;
     
 }
 
 .tech {
     font-size: .8em;
     color: #313131;
-    margin-left: 7em;
+    padding-left: 
     margin-right: 7em;
 
 }
@@ -98,9 +99,9 @@ ul {
 
 }
 
-/*Responsiveness for phones with maximum width of 768px and minimum width of 420px*/
+/*Responsiveness for phones with maximum width of 768px and minimum width of 430px*/
 
-@media screen and (max-width: 768px) and (min-width: 420px) {
+@media screen and (max-width: 768px) and (min-width: 430px) {
     body {
         background-color: white;
         font-size: 1em;
@@ -139,9 +140,9 @@ ul {
 
 }
 
-/*Responsiveness for phones with maximum width of 420px*/
+/*Responsiveness for phones with maximum width of 430px*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
     body {
         background-color: white;
         font-size: 1em;
