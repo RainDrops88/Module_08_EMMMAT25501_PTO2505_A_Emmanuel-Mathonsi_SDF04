@@ -98,9 +98,9 @@ ul {
 
 }
 
-/*Responsiveness for phones with maximum width of 768px and minimum width of 376px*/
+/*Responsiveness for phones with maximum width of 768px and minimum width of 420px*/
 
-@media screen and (max-width: 768px) and (min-width: 376px) {
+@media screen and (max-width: 768px) and (min-width: 420px) {
     body {
         background-color: white;
         font-size: 1em;
@@ -139,9 +139,9 @@ ul {
 
 }
 
-/*Responsiveness for phones with maximum width of 376px*/
+/*Responsiveness for phones with maximum width of 420px*/
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
     body {
         background-color: white;
         font-size: 1em;
